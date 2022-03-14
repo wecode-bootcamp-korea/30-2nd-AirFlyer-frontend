@@ -29,8 +29,8 @@ export const NAV_LIST = {
     },
     {
       id: 2,
-      name: 'cart',
-      src: '/images/cart.png',
+      name: 'mypage',
+      src: '/images/mypage.png',
     },
     {
       id: 3,
