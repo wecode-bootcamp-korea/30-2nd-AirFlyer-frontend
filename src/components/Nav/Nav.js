@@ -11,8 +11,8 @@ function Nav() {
     localStorage.removeItem('token');
   };
 
-  const goToCart = () => {
-    navigate('/users/cart');
+  const goToMypage = () => {
+    navigate('/users/mypage');
   };
 
   const token = localStorage.getItem('token');
@@ -43,15 +43,10 @@ function Nav() {
             </li>
             {NAV_LIST.iconLinks.map(item => (
               <li key={item.id}>
-                {item.name === 'cart' ? (
-                  <Icon
-                    width={25}
-                    height={25}
-                    src={item.src}
-                    onClick={goToCart}
-                  />
+                {item.name === 'mypage' ? (
+                  <IconButton src={item.src} onClick={goToMypage} />
                 ) : (
-                  <Icon width={25} height={25} src={item.src} />
+                  <IconButton src={item.src} />
                 )}
               </li>
             ))}
@@ -70,7 +65,7 @@ const NavBar = styled.nav`
 
 const NavBarWrapper = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 `;
 
@@ -112,19 +107,17 @@ const UtilList = styled.ul`
   }
 `;
 
+const IconButton = styled.button`
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+`;
+
 const LoginLink = styled(Link)`
   color: ${props => props.theme.fontColorDarkblue};
   text-decoration: none;
-`;
-
-const Icon = styled.button`
-  width: ${props => props.width}px;
-  height: ${props => props.width}px;
-  border: none;
-  background-color: white;
-  background: url(${props => props.src}) center center /
-    ${props => props.width}px ${props => props.height}px;
-  cursor: pointer;
 `;
 
 export default Nav;
