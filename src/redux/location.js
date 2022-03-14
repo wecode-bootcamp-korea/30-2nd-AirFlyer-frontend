@@ -1,6 +1,6 @@
 const initialState = {
   depLocation: { planet_code: 'ERH', planet_name: '지구' },
-  arrLocation: { planet_code: 'TO', planet_name: '도착지' },
+  arrLocation: { planet_code: 'NAT', planet_name: '도착지' },
 };
 
 // Action Type

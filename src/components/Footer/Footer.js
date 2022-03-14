@@ -9,7 +9,7 @@ function Footer() {
       <WrapperLayout>
         <ShortcutDiv>
           <div className="shortcutAccordinList">
-            <AccordinListUl>
+            <AccordinListUl className="subAccordinList">
               {listItems.map(item => (
                 <AccordinListTitleGroupLi key={item.id}>
                   <SubTitle>{item.title}</SubTitle>
@@ -32,11 +32,9 @@ function Footer() {
           <ContactItemDiv>
             <ContactTitle>(주) 에어플라이어</ContactTitle>
           </ContactItemDiv>
-          <ContactList>
+          <ContactList className="contact_list">
             {contactItems.map(contactItem => (
-              <ContactItem key={contactItem.key}>
-                {contactItem.info}
-              </ContactItem>
+              <ContactItem>{contactItem.info}</ContactItem>
             ))}
           </ContactList>
           <CopyRight>© 2022-2023 AIR FLYER</CopyRight>
@@ -47,76 +45,91 @@ function Footer() {
 }
 
 const FooterDiv = styled.div`
-  width: 100%;
-  background-color: #f3f4f8;
-`;
-
-const ShortcutDiv = styled.div`
-  height: 260px;
-  max-width: 100%;
-  color: black;
-  background-position: 0% 0%;
-  border-top: 1px solid #d8dbe0;
-  line-height: 24px;
+  position: fixed;
+  bottom: 0;
+  box-sizing: border-box;
 `;
 
 const AccordinListUl = styled.ul`
   display: flex;
   width: 100%;
+  background-color: #f3f4f8;
+`;
+
+const ShortcutDiv = styled.div`
+  font-size: 16px;
+  line-height: 24px;
+  width: 1450px;
+  height: 260px;
+  color: black;
+  background-position: 0% 0%;
+  border-top: 1px solid #d8dbe0;
+  max-width: 100%;
+  display: block;
+  z-index: 9999;
 `;
 
 const AccordinListTitleGroupLi = styled.li`
-  width: 234px;
-  height: 192px;
-  padding: 40px 10px 0 0;
-  color: #000000;
+  font-size: 16px;
   background-color: #f3f4f8;
+  color: #000000;
+  height: 192px;
+  width: 234px;
+  padding: 40px 10px 0 0;
+  min-height: auto;
+  min-width: auto;
+  display: list-item;
 `;
 
 const SubTitle = styled.h6`
-  display: block;
-  width: 225px;
-  height: 24px;
-  margin: 0 0 11px 0;
-  color: #000000;
-  background-color: #f3f4f8;
   font-size: 16px;
   font-weight: 700;
+  background-color: #f3f4f8;
+  color: #000000;
+  height: 24px;
+  width: 225px;
+  margin: 0 0 11px 0;
+  display: block;
 `;
 
 const SubListItems = styled.li`
-  color: #000000;
+  font-size: 16px;
   background-color: #f3f4f8;
+  background-position: 0% 0%;
+  color: #000000;
 `;
 const SubListLetters = styled.p`
-  display: inline-block;
   font-size: 14px;
   height: 22px;
   width: 100%;
   margin: 2px 0 2px 0;
+  display: inline-block;
 `;
 
 const Logo = styled.img`
-  position: relative;
-  top: 50px;
-  left: 10px;
-  width: 180px;
+  position: absolute;
+  top: 10px;
+  left: 1010px;
+  height: 250px;
+  width: 300px;
 `;
 
 const Contact = styled.div`
-  height: 116px;
-  padding: 30px 50px;
-  background-color: #ffffff;
   font-size: 16px;
+  background-color: #ffffff;
+  height: 116px;
+  width: 1425px;
+  padding: 20px;
 `;
 
 const ContactTitle = styled.strong`
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none solid rgb(0, 37, 108);
+  background-color: white;
   width: 200px;
   height: auto;
   margin: 0 20px 0 0;
-  background-color: white;
-  text-decoration: none solid rgb(0, 37, 108);
-  font-weight: 700;
 `;
 
 const ContactList = styled.ul`
@@ -125,25 +138,31 @@ const ContactList = styled.ul`
 `;
 
 const ContactItem = styled.li`
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
   height: 22px;
   margin: 0 5px;
-  font-size: 14px;
-  text-align: left;
-  line-height: 22px;
 `;
 
 const ContactItemDiv = styled.div`
-  display: block;
-  float: left;
-  height: 22px;
+  font-size: 14px;
   line-height: 22px;
+  height: 22px;
+  float: left;
+  display: block;
 `;
 
 const CopyRight = styled.p`
-  padding: 20px 0;
-  color: #555555;
+  font-size: 14px;
   line-height: 22px;
   text-decoration: none solid rgb(85, 85, 85);
+  color: #555555;
+  height: 22px;
+  width: 1280px;
+  max-width: 1280px;
+  padding-left: 93px;
+  padding-top: 10px;
 `;
 
 export default Footer;

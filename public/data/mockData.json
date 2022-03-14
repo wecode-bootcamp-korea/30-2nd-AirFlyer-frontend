@@ -1,25 +1,152 @@
-{
-  "data": {
-    "total_price": 20000,
-
-    "passenger_informations": [
+[
+  {
+    "flight_schedule_info": {
+      "flight_schedule_id": 1,
+      "departure_datetime": "Thu Jan 01 1970 20:00:00 GMT+0900",
+      "arrival_datetime": "Thu Jan 01 1970 24:00:00 GMT+0900",
+      "departure_planet_code": "ERH",
+      "arrival_planet_code": "MON",
+      "duration": "4:00",
+      "spaceship_name": "초고속우주선"
+    },
+    "flight_seat_info": [
       {
-        "first_name": "김",
-        "last_name": "근성1",
-        "gender": "남",
-        "email": "email1@naver.com",
-        "birth_date": "1984.08.04",
-        "flight_schedule_id": 1,
-        "seat_name": "이코노미"
+        "seat_id": 1,
+        "seat_type": "이코노미",
+        "seat_remain": 3,
+        "seat_price": 120000
       },
       {
-        "first_name": "김",
-        "last_name": "근성2",
-        "gender": "여",
-        "email": "email2@naver.com",
-        "birth_date": "1984.08.04",
-        "flight_schedule_id": 1,
-        "seat_name": "이코노미"
+        "seat_id": 2,
+        "seat_type": "비즈니스",
+        "seat_remain": 20,
+        "seat_price": 250000
+      }
+    ]
+  },
+
+  {
+    "flight_schedule_info": {
+      "flight_schedule_id": 2,
+      "departure_datetime": "Thu Jan 01 1970 20:00:00 GMT+0900",
+      "arrival_datetime": "Thu Jan 01 1970 24:00:00 GMT+0900",
+      "duration": "4:00",
+      "departure_planet_code": "ERH",
+      "arrival_planet_code": "MON",
+      "spaceship_name": "왕고속우주선"
+    },
+    "flight_seat_info": [
+      {
+        "seat_id": 1,
+        "seat_type": "이코노미",
+        "seat_remain": 3,
+        "seat_price": 120000
+      },
+      {
+        "seat_id": 2,
+        "seat_type": "비즈니스",
+        "seat_remain": 20,
+        "seat_price": 250000
+      }
+    ]
+  },
+  {
+    "flight_schedule_info": {
+      "flight_schedule_id": 3,
+      "departure_datetime": "Thu Jan 01 1970 20:00:00 GMT+0900",
+      "arrival_datetime": "Thu Jan 01 1970 24:00:00 GMT+0900",
+      "duration": "4:00",
+      "departure_planet_code": "ERH",
+      "arrival_planet_code": "MON",
+      "spaceship_name": "CIG2022"
+    },
+    "flight_seat_info": [
+      {
+        "seat_id": 1,
+        "seat_type": "이코노미",
+        "seat_remain": 3,
+        "seat_price": 120000
+      },
+      {
+        "seat_id": 2,
+        "seat_type": "비즈니스",
+        "seat_remain": 20,
+        "seat_price": 250000
+      }
+    ]
+  },
+  {
+    "flight_schedule_info": {
+      "flight_schedule_id": 4,
+      "departure_datetime": "Thu Jan 01 1970 20:00:00 GMT+0900",
+      "arrival_datetime": "Thu Jan 01 1970 24:00:00 GMT+0900",
+      "duration": "4:00",
+      "departure_planet_code": "ERH",
+      "arrival_planet_code": "MON",
+      "spaceship_name": "CIG2022"
+    },
+    "flight_seat_info": [
+      {
+        "seat_id": 1,
+        "seat_type": "이코노미",
+        "seat_remain": 3,
+        "seat_price": 120000
+      },
+      {
+        "seat_id": 2,
+        "seat_type": "비즈니스",
+        "seat_remain": 20,
+        "seat_price": 250000
+      }
+    ]
+  },
+  {
+    "flight_schedule_info": {
+      "flight_schedule_id": 5,
+      "departure_datetime": "Thu Jan 01 1970 20:00:00 GMT+0900",
+      "arrival_datetime": "Thu Jan 01 1970 24:00:00 GMT+0900",
+      "duration": "4:00",
+      "departure_planet_code": "ERH",
+      "arrival_planet_code": "MON",
+      "spaceship_name": "CIG2022"
+    },
+    "flight_seat_info": [
+      {
+        "seat_id": 1,
+        "seat_type": "이코노미",
+        "seat_remain": 3,
+        "seat_price": 120000
+      },
+      {
+        "seat_id": 2,
+        "seat_type": "비즈니스",
+        "seat_remain": 20,
+        "seat_price": 250000
+      }
+    ]
+  },
+  {
+    "flight_schedule_info": {
+      "flight_schedule_id": 6,
+      "departure_datetime": "Thu Jan 01 1970 20:00:00 GMT+0900",
+      "arrival_datetime": "Thu Jan 01 1970 24:00:00 GMT+0900",
+      "duration": "4:00",
+      "departure_planet_code": "ERH",
+      "arrival_planet_code": "MON",
+      "spaceship_name": "CIG2022"
+    },
+    "flight_seat_info": [
+      {
+        "seat_id": 1,
+        "seat_type": "이코노미",
+        "seat_remain": 4,
+        "seat_price": 1200
+      },
+      {
+        "seat_id": 2,
+        "seat_type": "비즈니스",
+        "seat_remain": 2,
+        "seat_price": 25000
       }
     ]
   }
