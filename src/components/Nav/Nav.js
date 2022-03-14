@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import WrapperLayout from 'components/WrapperLayout/WrapperLayout';
+import IconButton from 'components/Icon/IconButton/IconButton';
 import { NAV_LIST } from './navdata';
 
 function Nav() {
@@ -44,14 +45,14 @@ function Nav() {
             {NAV_LIST.iconLinks.map(item => (
               <li key={item.id}>
                 {item.name === 'cart' ? (
-                  <Icon
+                  <IconButton
                     width={25}
                     height={25}
                     src={item.src}
                     onClick={goToCart}
                   />
                 ) : (
-                  <Icon width={25} height={25} src={item.src} />
+                  <IconButton width={25} height={25} src={item.src} />
                 )}
               </li>
             ))}
@@ -115,16 +116,6 @@ const UtilList = styled.ul`
 const LoginLink = styled(Link)`
   color: ${props => props.theme.fontColorDarkblue};
   text-decoration: none;
-`;
-
-const Icon = styled.button`
-  width: ${props => props.width}px;
-  height: ${props => props.width}px;
-  border: none;
-  background-color: white;
-  background: url(${props => props.src}) center center /
-    ${props => props.width}px ${props => props.height}px;
-  cursor: pointer;
 `;
 
 export default Nav;
