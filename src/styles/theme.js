@@ -18,6 +18,7 @@ const theme = {
   medium: '20px',
   btnSmall: '18px',
   small: '16px',
+  borderColorSkyBlue: 'c7f3ff',
 };
 
 export default theme;
