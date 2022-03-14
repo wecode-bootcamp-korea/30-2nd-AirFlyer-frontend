@@ -17,4 +17,10 @@
 
 ### 적용 기술
 - Front-End : React, sass, html, javascript
-- Back-End : Python, Django web framework, Bcrypt, MySQLcommon : Git, Github
+- Back-End : Python, Django web framework, Bcrypt, MySQL
+- common : Git, Github
+
+### 구현 기능
+- 강성훈 : 항공편 리스트
+- 김혜진 : 메인 페이지 (항공편 검색)
+- 안광민 : 소셜 로그인
