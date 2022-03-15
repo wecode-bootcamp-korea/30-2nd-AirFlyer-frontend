@@ -17,6 +17,7 @@ function Modal({ title, children }) {
   const resetModalInfo = () => {
     dispatch(resetInfo());
   };
+
   return (
     <>
       <Background

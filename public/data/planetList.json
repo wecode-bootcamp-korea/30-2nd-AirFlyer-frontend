@@ -1,0 +1,54 @@
+{
+  "planet_list": [
+    {
+      "planet_id": 1,
+      "planet_code": "ERH",
+      "planet_name": "지구"
+    },
+    {
+      "planet_id": 2,
+      "planet_code": "MAR",
+      "planet_name": "화성"
+    },
+    {
+      "planet_id": 3,
+      "planet_code": "ERH",
+      "planet_name": "지구"
+    },
+    {
+      "planet_id": 4,
+      "planet_code": "ERH",
+      "planet_name": "지구"
+    },
+    {
+      "planet_id": 5,
+      "planet_code": "ERH",
+      "planet_name": "지구"
+    },
+    {
+      "planet_id": 6,
+      "planet_code": "ERH",
+      "planet_name": "지구"
+    },
+    {
+      "planet_id": 7,
+      "planet_code": "ERH",
+      "planet_name": "지구"
+    },
+    {
+      "planet_id": 8,
+      "planet_code": "ERH",
+      "planet_name": "지구"
+    },
+    {
+      "planet_id": 9,
+      "planet_code": "ERH",
+      "planet_name": "지구"
+    },
+    {
+      "planet_id": 10,
+      "planet_code": "ERH",
+      "planet_name": "지구"
+    }
+  ]
+}
