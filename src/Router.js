@@ -14,7 +14,7 @@ function Router() {
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/" element={<Main />} />
-        <Route path="/flightslist" element={<FlightsList />} />
+        <Route path="/flights" element={<FlightsList />} />
         <Route path="/users/mypage" element={<MyPage />} />
       </Routes>
       <Footer />

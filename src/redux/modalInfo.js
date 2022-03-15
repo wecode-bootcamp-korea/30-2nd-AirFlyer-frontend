@@ -1,9 +1,12 @@
 const initialState = {
+  depSearch: false,
+  arrSearch: false,
   depLocation: false,
   arrLocation: false,
   date: false,
   passenger: false,
   title: '',
+  currentModalInfo: '',
 };
 
 // Action Type

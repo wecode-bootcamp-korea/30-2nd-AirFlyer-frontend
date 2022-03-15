@@ -18,7 +18,7 @@ export default function counter(state = initialState, action) {
     case DECREASE:
       return { count: state.count > 0 ? state.count - 1 : 0 };
     case UPDATE:
-      if (typeof action.value !== Number) {
+      if (!Number(action.value)) {
         return { count: 0 };
       } else if (state.count >= 0) {
         return { count: Number(action.value) };
