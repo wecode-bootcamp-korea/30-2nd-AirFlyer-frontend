@@ -1,5 +1,26 @@
-[
-  {
-    "mockdata": 1
+{
+  "data": {
+    "total_price": 20000,
+
+    "passenger_informations": [
+      {
+        "first_name": "김",
+        "last_name": "근성1",
+        "gender": "남",
+        "email": "email1@naver.com",
+        "birth_date": "1984.08.04",
+        "flight_schedule_id": 1,
+        "seat_name": "이코노미"
+      },
+      {
+        "first_name": "김",
+        "last_name": "근성2",
+        "gender": "여",
+        "email": "email2@naver.com",
+        "birth_date": "1984.08.04",
+        "flight_schedule_id": 1,
+        "seat_name": "이코노미"
+      }
+    ]
   }
-]
+}
