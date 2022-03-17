@@ -6,6 +6,7 @@ import Main from './pages/Main/Main';
 import FlightsList from 'pages/FlightsList/FlightsList';
 import MyPage from 'pages/MyPage/MyPage';
 import Footer from './components/Footer/Footer';
+import TravelerInfo from './pages/TravelerInfo/TravelerInfo';
 
 function Router() {
   return (
@@ -16,6 +17,7 @@ function Router() {
         <Route path="/" element={<Main />} />
         <Route path="/flights" element={<FlightsList />} />
         <Route path="/users/mypage" element={<MyPage />} />
+        <Route path="/travelerinfo" element={<TravelerInfo />} />
       </Routes>
       <Footer />
     </BrowserRouter>
