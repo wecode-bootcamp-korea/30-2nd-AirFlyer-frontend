@@ -9,7 +9,7 @@ const theme = {
   backgroundColorDarkblue: '#00256c',
   borderColorGray: '#d9dbe1',
   borderColorSkyblue: '#c7f3ff',
-  borderColorDarkBlue: '#00256c',
+  borderColorDarkblue: '#00256c',
   btnLarge: '30px',
   large: '28px',
   btnRegular: '26px',
