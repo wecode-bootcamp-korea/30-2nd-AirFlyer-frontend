@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "reservation_id": 1,
+
+      "seat": {
+        "seat_type": "비즈니스",
+        "seat_number": 2
+      },
+
+      "total_price": 40000,
+
+      "flight_schedule": {
+        "departure_datetime": "2022.03.21 13:00",
+        "arrival_datetime": "2022.03.21 13:00",
+        "duration": 2,
+        "departure_planet_name": "지구",
+        "departure_planet_code": "ETH",
+        "arrival_planet_name": "달",
+        "arrival_planet_code": "MON"
+      }
+    },
+    {
+      "reservation_id": 2,
+
+      "seat": {
+        "seat_type": "이코노미",
+        "seat_number": 4
+      },
+
+      "total_price": 40000,
+
+      "flight_schedule": {
+        "departure_datetime": "2022.03.22 17:00",
+        "arrival_datetime": "2022.03.22 19:00",
+        "duration": 2,
+        "departure_planet_name": "지구",
+        "departure_planet_code": "ETH",
+        "arrival_planet_name": "달",
+        "arrival_planet_code": "MON"
+      }
+    },
+    {
+      "reservation_id": 3,
+
+      "seat": {
+        "seat_type": "이코노미",
+        "seat_number": 4
+      },
+
+      "total_price": 40000,
+
+      "flight_schedule": {
+        "departure_datetime": "2022.03.23 13:00",
+        "arrival_datetime": "2022.03.23 15:00",
+        "duration": 2,
+        "departure_planet_name": "지구",
+        "departure_planet_code": "ETH",
+        "arrival_planet_name": "달",
+        "arrival_planet_code": "MON"
+      }
+    }
+  ]
+}
