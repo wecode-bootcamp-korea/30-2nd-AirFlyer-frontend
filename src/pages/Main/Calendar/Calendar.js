@@ -39,6 +39,7 @@ function Calendar() {
         ranges={state}
         months={2}
         direction="horizontal"
+        minDate={new Date()}
       />
       <ButtonWrap>
         <ResetButton type="button" onClick={resetState}>

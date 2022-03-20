@@ -5,6 +5,7 @@ const initialState = {
   arrLocation: false,
   date: false,
   passenger: false,
+  ticket: false,
   title: '',
   currentModalInfo: '',
 };
