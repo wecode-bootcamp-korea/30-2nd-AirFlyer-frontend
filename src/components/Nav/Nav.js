@@ -112,6 +112,7 @@ const IconButton = styled.button`
   height: 25px;
   border: none;
   background-color: white;
+  background: url(${props => props.src}) center center / 25px 25px;
   cursor: pointer;
 `;
 

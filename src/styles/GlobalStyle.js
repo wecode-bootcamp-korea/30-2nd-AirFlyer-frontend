@@ -12,6 +12,10 @@ const GlobalStyle = createGlobalStyle`
         height: 100%;
     }
 
+    body {
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+
     button {
         padding: 0;
         margin: 0;
