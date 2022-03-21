@@ -6,8 +6,8 @@ import { listItems, contactItems } from './footerData.js';
 function Footer() {
   return (
     <FooterDiv>
-      <ShortcutDiv>
-        <WrapperLayout>
+      <WrapperLayout>
+        <ShortcutDiv>
           <div className="shortcutAccordinList">
             <AccordinListUl>
               {listItems.map(item => (
@@ -20,11 +20,13 @@ function Footer() {
                   ))}
                 </AccordinListTitleGroupLi>
               ))}
-              <Logo alt="logo" src="/images/logo.png" />
+              <AccordinListTitleGroupLi>
+                <Logo alt="logo" src="/images/logo_black.png" />
+              </AccordinListTitleGroupLi>
             </AccordinListUl>
           </div>
-        </WrapperLayout>
-      </ShortcutDiv>
+        </ShortcutDiv>
+      </WrapperLayout>
       <Contact>
         <WrapperLayout>
           <ContactItemDiv>
@@ -37,38 +39,33 @@ function Footer() {
               </ContactItem>
             ))}
           </ContactList>
+          <CopyRight>© 2022-2023 AIR FLYER</CopyRight>
         </WrapperLayout>
-        <CopyRight>© 2022-2023 AIR FLYER</CopyRight>
       </Contact>
     </FooterDiv>
   );
 }
 
 const FooterDiv = styled.div`
-  position: fixed;
-  margin: 0 auto;
-  bottom: 0;
-  box-sizing: border-box;
+  width: 100%;
+  background-color: #f3f4f8;
 `;
+
+const ShortcutDiv = styled.div`
+  height: 260px;
+  max-width: 100%;
+  color: black;
+  background-position: 0% 0%;
+  border-top: 1px solid #d8dbe0;
+  line-height: 24px;
+`;
+
 const AccordinListUl = styled.ul`
   display: flex;
   width: 100%;
 `;
 
-const ShortcutDiv = styled.div`
-  width: 1450px;
-  height: 260px;
-  max-width: 100%;
-  color: black;
-  background-color: #f3f4f8;
-  background-position: 0% 0%;
-  border-top: 1px solid #d8dbe0;
-  line-height: 24px;
-  z-index: 9999;
-`;
-
 const AccordinListTitleGroupLi = styled.li`
-  /* display: list-item; */
   width: 234px;
   height: 192px;
   padding: 40px 10px 0 0;
@@ -88,7 +85,6 @@ const SubTitle = styled.h6`
 `;
 
 const SubListItems = styled.li`
-  /* background-position: 0% 0%; */
   color: #000000;
   background-color: #f3f4f8;
 `;
@@ -101,17 +97,15 @@ const SubListLetters = styled.p`
 `;
 
 const Logo = styled.img`
-  position: absolute;
-  top: 10px;
-  left: 1010px;
-  width: 300px;
-  height: 250px;
+  position: relative;
+  top: 50px;
+  left: 10px;
+  width: 180px;
 `;
 
 const Contact = styled.div`
-  width: 1425px;
   height: 116px;
-  padding: 20px;
+  padding: 30px 50px;
   background-color: #ffffff;
   font-size: 16px;
 `;
@@ -139,18 +133,14 @@ const ContactItem = styled.li`
 `;
 
 const ContactItemDiv = styled.div`
-  float: left;
   display: block;
+  float: left;
   height: 22px;
   line-height: 22px;
 `;
 
 const CopyRight = styled.p`
-  width: 1280px;
-  height: 22px;
-  max-width: 1280px;
-  padding-top: 10px;
-  padding-left: 93px;
+  padding: 20px 0;
   color: #555555;
   line-height: 22px;
   text-decoration: none solid rgb(85, 85, 85);
