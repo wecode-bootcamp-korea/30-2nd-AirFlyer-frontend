@@ -2,20 +2,21 @@ import React from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import WrapperLayout from 'components/WrapperLayout/WrapperLayout';
+import { getToken, removeToken } from 'utils/storage';
 import { NAV_LIST } from './navdata';
 
 function Nav() {
   const navigate = useNavigate();
 
   const logout = () => {
-    localStorage.removeItem('token');
+    removeToken();
   };
 
   const goToMypage = () => {
     navigate('/users/mypage');
   };
 
-  const token = localStorage.getItem('token');
+  const token = getToken();
 
   return (
     <NavBar>
