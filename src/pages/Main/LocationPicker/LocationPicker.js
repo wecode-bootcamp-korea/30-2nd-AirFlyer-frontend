@@ -1,22 +1,26 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import LocationList from './LocationList';
-import { getPlanetList } from 'hooks/hooks';
+import LoadingSpinner from 'components/LoadingSpinner/LoadingSpinner';
 import { CATEGORY_LIST } from './categoryData';
+import { useFetch } from 'hooks/useFetch';
 
-//TODO: 커스텀 훅은 함수나 다른 훅 안에 쓸 수 없는지 알아보기
 function LocationPicker() {
   const [currentId, setCurrentId] = useState(1);
   const [planetList, setPlanetList] = useState([]);
-
   const clickHandler = id => {
     setCurrentId(id);
   };
 
-  const handleLoad = async () => {
-    const result = await getPlanetList();
-    const { planet_list } = result;
-    setPlanetList(planet_list);
+  const { isLoading, data, loadingError } = useFetch(
+    'http://ec2-3-34-189-145.ap-northeast-2.compute.amazonaws.com:8000/flights/planet'
+  );
+
+  const handleLoad = () => {
+    if (!isLoading) {
+      const { planet_list } = data;
+      setPlanetList(planet_list);
+    }
   };
 
   useEffect(() => {
@@ -32,7 +36,9 @@ function LocationPicker() {
     6: <LocationList list={planetList} />,
   };
 
-  return (
+  return isLoading ? (
+    <LoadingSpinner />
+  ) : (
     <Container>
       <CategoryList>
         {CATEGORY_LIST.map(item => (
@@ -49,6 +55,7 @@ function LocationPicker() {
         ))}
       </CategoryList>
       {MAPPING_OBJ[currentId]}
+      {loadingError && alert(loadingError.message)}
     </Container>
   );
 }
