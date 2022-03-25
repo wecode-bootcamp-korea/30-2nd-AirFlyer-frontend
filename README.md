@@ -51,7 +51,7 @@
 ---
 ## 적용 기술 및 구현 기능
 
-### 기술 스택
+* ### 기술 스택
     * ### Front-end  
         <a href="#"><img src="https://img.shields.io/badge/HTML-DD4B25?style=plastic&logo=html&logoColor=white"/></a>
     <a href="#"><img src="https://img.shields.io/badge/SASS-254BDD?style=plastic&logo=sass&logoColor=white"/></a>
@@ -74,8 +74,9 @@
                 <a href="#"><img src="https://img.shields.io/badge/Trello-2580F7?style=plastic&logo=trello&logoColor=white"/></a>
         <a href="#"><img src="https://img.shields.io/badge/Notion-F7F7F7?style=plastic&logo=notion&logoColor=black"/></a>
 
-# 시연
 ---
+# 시연
+
 ### 데모 영상
 > https://www.youtube.com/watch?v=m-aGi9i54J0
 
@@ -120,6 +121,7 @@
 ### 마이 페이지
 - 유저의 과거 예약 목록을 보여줌
 
+---
 # Reference
 
 - 이 프로젝트는 대한항공 사이트를 참조하여 학습목적으로 만들었습니다.
