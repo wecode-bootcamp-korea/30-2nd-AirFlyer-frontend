@@ -43,7 +43,8 @@
 
 ### 소셜 로그인
 
-- 소셜 로그인시 버튼 클릭 후 동의하고 카카오 로그인을 하면 로그인이 되고 카카오에서 access_token을 받아온다. 그리고 access_token을 백엔드로 보내서 다시 JWT로 발급받은 토큰을 받아 로컬스토리지에 저장 한다.
+- 소셜 로그인시 버튼 클릭 후 동의하고 카카오 로그인을 하면 로그인이 되고 카카오에서 access_token을 받아온다.
+- 그리고 access_token을 백엔드로 보내서 다시 JWT로 발급받은 토큰을 받아 로컬스토리지에 저장 한다.
 
 ![Login](https://user-images.githubusercontent.com/98295004/160070083-db6055be-9a3e-4d1f-8ca7-28d69bbc210e.gif)
 
