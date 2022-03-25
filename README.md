@@ -37,11 +37,11 @@
 ### 데모 영상
 > https://www.youtube.com/watch?v=m-aGi9i54J0
 
-### 소셜 로그인
-
 ### Nav
 
 ### Footer
+
+### 소셜 로그인
 
 ### 항공권 검색
 
