@@ -43,6 +43,8 @@
 
 ### 소셜 로그인
 
+![Login](https://user-images.githubusercontent.com/98295004/160070083-db6055be-9a3e-4d1f-8ca7-28d69bbc210e.gif)
+
 ### 항공권 검색
 
 ### 항공권 선택
