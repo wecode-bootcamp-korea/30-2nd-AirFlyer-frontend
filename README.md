@@ -22,7 +22,7 @@
 
 ### 적용 기술
 
-- Front-End : React, sass, html, javascript
+- Front-End : React, scss, html, javascript
 - Back-End : Python, Django web framework, Bcrypt, MySQL
 - common : Git, Github
 
