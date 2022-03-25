@@ -40,8 +40,8 @@
 ### 개발인원 및 파트
 
     * Front-end  
-        강성훈 - 항공권 선택
-        김혜진 - 항공권 검색, 마이 페이지 (예약 내역 확인)
+        강성훈 - 항공권 선택, Footer
+        김혜진 - 항공권 검색, 마이 페이지 (예약 내역 확인), Nav
         안광민 - 소셜 로그인, 양식작성 및 예약
         
     * Back-end   
@@ -102,16 +102,19 @@
 ![Main_Search](https://user-images.githubusercontent.com/98295004/160070624-b286f37e-e843-4996-9b4f-7c8a4cd1ee57.gif)        
 
 - 하단의 [모든 지역 보기] 클릭 시, 행성 목록이 렌더링 됨
-- 행성 클릭 시, 시작지 OR 도착지가 바뀐다
+- 행성 클릭 시, 화면 상에서 시작지 OR 도착지가 바뀜
+- 시작지, 도착지를 전역 변수로 저장함 (depLocation, arrLocation)
 
 ![Main_Planet](https://user-images.githubusercontent.com/98295004/160070638-0e2d5d1f-56e8-49fc-91d0-09c0cc4f0a27.gif)
 
 - DateRange 라이브러리를 이용해 달력 구현
 - 대한항공 UI에 맞게 스타일링
-
+- redux로 가는날, 오는날을 전역 변수로 저장함 (startDate, endDate)
+-
 ![Main_Calendar](https://user-images.githubusercontent.com/98295004/160075808-13adefd1-c7d7-409a-830e-2ebf27402695.gif)
 
-- 승객 인원수 변경, redux로 count 전역 변수를 만듦
+- 승객 인원수 변경 기능
+- 인원수를 전역 변수로 저장함 (count)
 
 ![Main_Passenger](https://user-images.githubusercontent.com/98295004/160076196-e3cb7d08-cb04-43cc-84c0-5730ab2b4685.gif)
 
