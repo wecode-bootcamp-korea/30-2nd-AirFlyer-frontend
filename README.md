@@ -46,12 +46,13 @@
 ![Login](https://user-images.githubusercontent.com/98295004/160070083-db6055be-9a3e-4d1f-8ca7-28d69bbc210e.gif)
 
 ### 항공권 검색
-행성 버튼 클릭 시, 검색 모달 오픈
+
+- 행성 버튼 클릭 시, 검색 모달 오픈
 
 ![Main_Search](https://user-images.githubusercontent.com/98295004/160070624-b286f37e-e843-4996-9b4f-7c8a4cd1ee57.gif)
 
-하단의 [모든 지역 보기] 클릭 시, 행성 목록이 렌더링 됨
-행성 클릭 시, 시작지 OR 도착지가 바뀐다
+- 하단의 [모든 지역 보기] 클릭 시, 행성 목록이 렌더링 됨
+- 행성 클릭 시, 시작지 OR 도착지가 바뀐다
 
 ![Main_Planet](https://user-images.githubusercontent.com/98295004/160070638-0e2d5d1f-56e8-49fc-91d0-09c0cc4f0a27.gif)
 
