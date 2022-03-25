@@ -10,21 +10,21 @@
 
 <img width="916" alt="image" src="https://user-images.githubusercontent.com/98295004/160068749-64f708a0-4d24-45ff-98d8-9fb26928d871.png">
 
-
 ### 프로젝트 선정이유
 - 프론트 입장에서 각종 외부 API를 이용해 볼 수 있음 (ex. 달력)
 - 깔끔한 UI, UX
 - 소셜 로그인, 예약 기능을 구현볼수 있음
 
-# 초기기획 & ERD
+---
+## 초기기획 & ERD
 
-## ERD
+### ERD
 ![image](https://user-images.githubusercontent.com/67942847/160069065-059d796e-4c05-4232-bf81-a15bbfe97123.png)
 
-## User flow
+### User flow
 ![image](https://user-images.githubusercontent.com/67942847/160073025-11ee9558-b015-427b-955b-393720ad8343.png)
 
-## 초기기획 및 구현 목표
+### 초기기획 및 구현 목표
 - 짧은 기간동안 기능구현에 집중해야하므로 일단 최소기능을 우선 구현하는 것으로 목표를 설정
 - UI, UX 제외 개발은 초기세팅부터 전부 직접 구현
 - 편도 기능만 구현
@@ -32,13 +32,13 @@
 - 지정한 날짜에 따라 항공권을 필터링 하는 기능 구현 
 
 ---
-# 개발기간 및 팀원
+## 개발기간 및 팀원
 
-* ## 개발기간  
-    2022.03.14 ~ 2022.03.25
+### 개발기간  
+2022.03.14 ~ 2022.03.25
    
 
-* ## 개발인원 및 파트
+### 개발인원 및 파트
 
     * Front-end  
         강성훈 - 항공권 선택
@@ -50,9 +50,9 @@
         안성준 -  항공권 검색, 항공권 선택
 
 ---
-# 적용 기술 및 구현 기능
+## 적용 기술 및 구현 기능
 
-* ## 기술 스택
+### 기술 스택
     * ### Front-end  
         <a href="#"><img src="https://img.shields.io/badge/HTML-DD4B25?style=plastic&logo=html&logoColor=white"/></a>
     <a href="#"><img src="https://img.shields.io/badge/SASS-254BDD?style=plastic&logo=sass&logoColor=white"/></a>
