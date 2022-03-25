@@ -84,6 +84,7 @@
 - 현재 링크에 밑줄 적용 (현재 브라우저 url과 동일한 NavLink 스타일링)
 
 ### Footer
+- map 메소드로 복수의 메뉴 렌더링
 
 ### 소셜 로그인
 - 카카오 서버와 통신하여 인증 발급
@@ -112,6 +113,8 @@
 
 - 판매 상품의 분류에 따라 filtering
 - 사용자가 원하는 기준에 따라 sorting
+
+![PlanetList](https://user-images.githubusercontent.com/98295004/160075390-adc0f755-676d-473b-88d6-a3325355ac0d.gif)
 
 ### 예매 양식 제출
 
