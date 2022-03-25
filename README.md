@@ -7,6 +7,9 @@
 
 - 항공권 예약 사이트인 대한항공을 모티브로 한 사이트
 
+<img width="916" alt="image" src="https://user-images.githubusercontent.com/98295004/160068749-64f708a0-4d24-45ff-98d8-9fb26928d871.png">
+
+
 ### 프로젝트 선정이유
 
 - 소셜 로그인, 예약 기능을 구현해 볼 수 있어 선정하게 되었습니다.
