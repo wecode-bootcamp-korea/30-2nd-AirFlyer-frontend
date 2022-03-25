@@ -38,6 +38,7 @@
 > https://www.youtube.com/watch?v=m-aGi9i54J0
 
 ### Nav
+- 현재 링크에 밑줄 적용 (현재 브라우저 url과 동일한 NavLink 스타일링)
 
 ### Footer
 
