@@ -1,12 +1,11 @@
 # Air Flyer
 
-> Our Reference
-> https://www.koreanair.com/
-
 ### 프로젝트 소개
 
 - AIR FLYER은 항성간 우주여행 예약을 제공하는 사이트입니다.
 - 대한항공의 UX,UI를 오마쥬 했습니다.
+> Our Reference
+> https://www.koreanair.com/
 
 <img width="916" alt="image" src="https://user-images.githubusercontent.com/98295004/160068749-64f708a0-4d24-45ff-98d8-9fb26928d871.png">
 
